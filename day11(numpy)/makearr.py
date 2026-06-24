@@ -21,5 +21,17 @@ import numpy as np
 import numpy as np
 
 ## 1
-numbers = np.array([1, 2, 3, 4, 5])
-print(numbers)
+arr1 = np.array([1, 2, 3, 4, 5])
+print(arr1)
+
+## 2
+arr2 = np.zeros((3, 4))
+print(arr2)
+
+## 3 
+arr3 = np.ones((2, 3))
+print(arr3)
+
+## 4
+arr4 = np.arange(10)
+print(arr4)
